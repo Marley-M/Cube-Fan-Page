@@ -1,0 +1,32 @@
+/* makes the buttons visable */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* makes the buttons horizontal, with out this they would be in the middle of the screen in a vertical line */
+li {
+    float: left;
+}
+
+/* makes the buttons looke nice */
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* styles the background colour for when you hover over a button */
+li a:hover {
+    background-color: #111;
+}
+
+/* styles the background colour of the active button (the button of the page that you're currently on)*/
+.active {
+    background-color: rgb(119, 116, 116);
+}

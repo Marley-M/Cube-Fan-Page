@@ -1,0 +1,29 @@
+#header { /* styling code for the header */
+    background-color: rgb(74, 76, 80); /* sets the background colour of the header */
+    padding: 10px;
+    margin-top: -8px;
+    width: 100%; /* sets the width of the header to fill up the whole page (length wise) */
+    text-align: center; /* aligns the font to the center */
+    font-size: 35px; /* sets the font size */
+    color: white; /* gives the header font a colour */
+    margin-bottom: -35px;
+    margin-top: -30px;
+    font-family: Papyrus, fantasy; /* gives the header a font */
+}
+
+#footer { /* styling code for the footer */
+    transform: translateY(0%);
+    background-color: rgb(74, 76, 80); /* sets the background colour of the footer */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    width: 100%; /* sets the width of the footer to fill up the whole page (length wise)*/
+    height: 50px; /* sets the footer hight */
+    text-align: center;
+    color: white; /* sets the text colour */
+    position: relative;
+    font-family: monospace; /* gives the footer a font */
+    font-size: 15px; /* sets the font size */
+    padding-top: 15px;
+}

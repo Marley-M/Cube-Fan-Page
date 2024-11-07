@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+}
+  
+body { /* colours the background of the website and sets a univeral font family for the website to use */
+    background-color: #474e5d;
+    color: white;
+    font-family: Helvetica, sans-serif;
+}
+
+main {
+  padding: 20px; /* adds an internal border around a main tag */
+}
+
+#post {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.AccountInfo { /* AccountInfo controls the Account Icon, About Account, Account Username, and the about tags. */
+  background-color: #647386;
+  padding: 5px;
+  margin: 5px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  width: 200px;
+  height: 70px;
+  display: flex; /* Use flexbox for horizontal layout */
+  align-items: center;
+}
+
+.CommentAccount { /* Formats username and account icon for comments */
+  background-color: rgba(255, 255, 255, 0);
+  padding: 0px;
+  margin: 0px;
+}
+
+.AccountIcon {
+  border-radius: 200px;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  margin-left: 5px;
+}
+
+.username { /* Formats the username */
+  font-weight: bold; /* Make username bold */
+  font-size: 17px;
+}
+
+.AboutAccount { /* AboutAccount conrols the Account Username and the Accouns About section */
+  margin-left: 10px; /* Add margin to separate text from image */
+}
+
+.about {
+  font-size: smaller;
+  color: #a4a6a8;
+  margin-top: -10px;
+}
+
+.post {
+  background-color: #725e5e;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: 125px;
+  border-radius: 10px;
+}
+
+.post-text {
+  margin: 0;
+}
+
+.comment {
+  /* margin-top: 50px; */
+  padding: 5px;
+  padding-left: 15px;
+  margin-left: 0px;
+  margin-bottom: 20px;
+  background-color: #5a8160da;
+  border: none;
+  width: 60%;
+  border-radius: 7px;
+}
+
+.CommentsText {
+  padding-left: 50px;
+  margin-top: -30px;
+}
+
+.comment-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  float: right;
+  margin-top: -60px;
+}
+
+.ReplyButton {
+  background-color: rgba(255, 255, 255, 0);
+  color: #bdb7b7;
+  border: none;
+  cursor: pointer;
+  float: right;
+  margin-top: -20px;
+}
+
+.reply {
+  margin-left: 40px;
+  background-color: #75815e;
+}
+
+
+.spacer {
+  padding: 5px;
+}
+
+
+
+
+
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+  border-style: none;
+  border-radius: 40px;
+}
+
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 600px; /* Could be more or less, depending on screen size */
+}
+
+/* The Okay/Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
