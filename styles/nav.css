@@ -30,3 +30,9 @@ li a:hover {
 .active {
     background-color: rgb(119, 116, 116);
 }
+
+
+
+.document {
+    background-color: rebeccapurple;
+}

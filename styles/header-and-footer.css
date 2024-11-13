@@ -16,7 +16,7 @@
     background-color: rgb(74, 76, 80); /* sets the background colour of the footer */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
+    bottom: 0; /* Stay at the bottom */
     left: 0;
     width: 100%; /* sets the width of the footer to fill up the whole page (length wise)*/
     height: 50px; /* sets the footer hight */

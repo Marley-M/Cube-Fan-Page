@@ -46,6 +46,12 @@ main {
 .username { /* Formats the username */
   font-weight: bold; /* Make username bold */
   font-size: 17px;
+  text-decoration: none;
+  color: white;
+}
+
+.username:hover {
+  color: #dadbdd;
 }
 
 .AboutAccount { /* AboutAccount conrols the Account Username and the Accouns About section */
@@ -130,9 +136,12 @@ button:hover {
 .cancelbtn {
   width: auto;
   padding: 10px 18px;
-  background-color: #f44336;
+  background-color: #e96d65;
   border-style: none;
   border-radius: 40px;
+  margin-right: 500px;
+  font-weight: 900;
+  cursor: pointer;
 }
 
 
@@ -162,10 +171,11 @@ span.psw {
 
 /* Modal Content/Box */
 .modal-content {
-  background-color: #fefefe;
+  background-color: #414870;
   margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
-  border: 1px solid #888;
+  border: 1px solid #41487098;
   width: 600px; /* Could be more or less, depending on screen size */
+  text-align: center;
 }
 
 /* The Okay/Close Button (x) */
@@ -175,7 +185,6 @@ span.psw {
   top: 0;
   color: #000;
   font-size: 35px;
-  font-weight: bold;
 }
 
 .close:hover,
@@ -209,4 +218,13 @@ span.psw {
   .cancelbtn {
      width: 100%;
   }
+}
+
+.link {
+  color: #5094cf;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #4b80af;
 }

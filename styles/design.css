@@ -1,12 +1,71 @@
 body {
-    background-color: rgb(180, 183, 187);
+  background-color: rgb(180, 183, 187);
 }
 
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
   
-  body {
-    background-color: #474e5d;
-    font-family: Helvetica, sans-serif;
-  }
+body {
+  background-color: #474e5d;
+  font-family: Helvetica, sans-serif;
+}
+
+.design-process-info {
+  padding: 20px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+h1 {
+  font-family: 'comic sans ms';
+}
+
+.design-process {
+  background-color: rgb(116, 143, 177);
+  padding: 15px;
+  padding-left: 20px;
+  margin-top: 30px;
+  border-radius: 40px;
+}
+
+.target-audience {
+  background-color: rgb(116, 164, 177);
+  padding: 15px;
+  padding-left: 20px;
+  margin-top: 20px;
+  border-radius: 40px;
+}
+
+.storyboard {
+  background-color: rgb(116, 143, 177);
+  padding: 15px;
+  padding-left: 20px;
+  margin-top: 20px;
+  border-radius: 40px;
+}
+
+.design-choices {
+  background-color: rgb(116, 164, 177);
+  padding: 15px;
+  padding-left: 20px;
+  margin-top: 20px;
+  border-radius: 40px;
+}
+
+.gannt-chart {
+  background-color: rgb(116, 143, 177);
+  padding: 15px;
+  padding-left: 20px;
+  padding-bottom: 100px;
+  margin-top: 20px;
+  border-radius: 40px;
+}
+
+.gannt-chart-image {
+  width: 80%;
+  height: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
