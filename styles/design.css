@@ -15,6 +15,10 @@ body {
   padding: 20px;
   padding-left: 200px;
   padding-right: 200px;
+  /* width: 61%; */
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1 {
@@ -25,7 +29,7 @@ h1 {
   background-color: rgb(116, 143, 177);
   padding: 15px;
   padding-left: 20px;
-  margin-top: 30px;
+  margin-top: 10px;
   border-radius: 40px;
 }
 
@@ -57,15 +61,15 @@ h1 {
   background-color: rgb(116, 143, 177);
   padding: 15px;
   padding-left: 20px;
-  padding-bottom: 100px;
   margin-top: 20px;
   border-radius: 40px;
 }
 
 .gannt-chart-image {
-  width: 80%;
-  height: 80%;
+  width: 90%;
+  height: 90%;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 2%;
 }

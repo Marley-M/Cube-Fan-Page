@@ -43,6 +43,15 @@ main {
   margin-left: 5px;
 }
 
+.AccountIcon:hover {
+  filter: brightness(70%);
+}
+
+.AccountIcon:hover {
+  transform: translateX(5px);
+  transform: translateY(5px);
+}
+
 .username { /* Formats the username */
   font-weight: bold; /* Make username bold */
   font-size: 17px;
